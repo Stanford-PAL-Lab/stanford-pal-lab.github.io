@@ -206,9 +206,10 @@ h1, h2, h3, h4 {
 }
 
 @media (max-width: 600px) {
-  .hero-lockup { flex-direction: column; align-items: flex-start; }
-  .hero-sep { width: 48px; height: 1px; margin: 12px 0; }
-  .hero-symbol { height: 64px; }
+  .hero-lockup { align-items: center; }
+  .hero-symbol { height: 52px; }
+  .hero-sep { height: 52px; margin: 0 14px; }
+  .hero h1 { font-size: 1.3rem; }
 }
 
 @media (max-width: 480px) {
@@ -507,4 +508,5 @@ a.person-card { text-decoration: none; color: inherit; }
   .news-item { grid-template-columns: 1fr; gap: 4px; }
   .news-date { padding-top: 0; }
   .people-grid { grid-template-columns: repeat(3, 1fr); width: 100%; }
+  .slide-media { max-height: 175px; }
 }
