@@ -467,6 +467,17 @@ a.person-card { text-decoration: none; color: inherit; }
 .contact-block h3 { font-size: 1.05rem; margin: 0 0 8px; }
 .contact-block p { color: var(--text-soft); margin: 0 0 14px; max-width: 70ch; }
 
+.funding-list {
+  list-style: none; margin: 4px 0 0; padding: 0;
+  display: flex; flex-direction: column; gap: 9px;
+}
+.funding-list li { display: flex; align-items: baseline; gap: 9px; }
+.funding-list li::before {
+  content: '→'; color: var(--teal); font-weight: 700; flex-shrink: 0;
+}
+.funding-list a { color: var(--accent-deep); font-weight: 500; }
+.funding-list a:hover { text-decoration: underline; }
+
 /* ── Page hero (inner pages) ──────────────────────────────── */
 .page-hero {
   padding: 56px 0 48px;
