@@ -195,7 +195,7 @@ h1, h2, h3, h4 {
   gap: 14px; margin-top: 18px;
 }
 .hero-affiliation {
-  font-size: 1.1rem; color: var(--text-soft);
+  font-size: 0.85rem; color: var(--text-soft);
   margin: 0; letter-spacing: 0.03em; text-align: center;
 }
 .hero-affiliation a { color: var(--text-soft); text-decoration: none; }
